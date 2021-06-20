@@ -1,0 +1,24 @@
+{
+  "name": "my_footprint_api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.1",
+    "restify": "^8.5.1",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "^8.0.2",
+    "sha1": "^1.1.1",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "production": "echo \"Server online\\n\" && pm2 start /home/irahe/my_footprint_api_5005/server.js",
+    "production-cluster": "echo \"Server with 2 clursters\\n\" && pm2 start /home/irahe/my_footprint_api_5005/server.js -i 2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}

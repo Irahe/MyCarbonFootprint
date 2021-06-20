@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Button } from 'antd';
 import {
   BarChart,
   CartesianGrid,
@@ -14,14 +15,14 @@ import { MapDispatch } from '../../Store/index';
 
 import QuestionTitle from '../../Components/QuestionTitle';
 import QuestionBody from '../../Components/QuestionBody';
-import QuestionFooter from '../../Components/QuestionFooter';
 
 import {
   QuestionWrapper,
   ReportInfo,
   ReportData,
   ReportDataTitle,
-  ReportDataValue
+  ReportDataValue,
+  QuestionFooter
 } from './style';
 
 const Report = ({ goTo, report, ...props }) => (
@@ -105,7 +106,16 @@ const Report = ({ goTo, report, ...props }) => (
         </BarChart>
       </ResponsiveContainer>
     </QuestionBody>
-    <QuestionFooter goTo={goTo} backKey="food" nextKey="save_and_process" />
+    <QuestionFooter>
+      <Button
+        type="default"
+        onClick={() => {
+          goTo('welcome');
+        }}
+      >
+        Go Back Home
+      </Button>
+    </QuestionFooter>
   </QuestionWrapper>
 );
 

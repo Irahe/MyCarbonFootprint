@@ -52,3 +52,13 @@ export const ReportDataValue = styled.div`
   font-size: ${fontSizes.m};
   line-height: ${fontSizes.m};
 `;
+
+export const QuestionFooter = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  bottom: 0px;
+`;

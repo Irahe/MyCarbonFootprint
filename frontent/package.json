@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "IMAGE_INLINE_SIZE_LIMIT=0 REACT_APP_ENVIRONMENT=production PUBLIC_URL=/my_footprint react-scripts build",
     "test": "react-scripts test",
     "lint:fix": "eslint src --fix",
     "prettier:write": "prettier --write .",

@@ -21,24 +21,24 @@ const Welcome = ({ goTo, ...props }) => (
     <CenterLine>
       <ToolDescriptionWrapper>
         <ToolDescriptionTitle>
-          Do you know how your lifestyle impacts on the environment?
+          Do you know how your lifestyle impacts the environment?
         </ToolDescriptionTitle>
         <ToolDescriptionTitle>
           Would you be prepared to understand each aspect of your carbon
           environmental footprint?
         </ToolDescriptionTitle>
         <ToolDescription>
-          This breaf assessment is a tool to help people measure and uderstand
+          This brief assessment is a tool to help people measure and understand
           their carbon footprint by applying a numerical approach to it. To do
-          so, you will be asked a few simple day to day questions. After that
-          our system will calculate your footprint and show to you in a simple
-          report/dashboard. The calculation is not the end goal, but rather the
-          means to achieving a reduction in your footprint – first through
-          understand of what ins envolved, then changes in your habits.
+          so, you will be asked a few simple day-to-day questions. After that
+          our system will calculate your footprint and show it to you in a
+          simple report/dashboard. The calculation is not the end goal, but
+          rather the means to achieving a reduction in your footprint – first
+          through understand what is involved, then changes in your habits.
         </ToolDescription>
         <ToolDescription>
-          Also, this assessment is anonymous and do not register any data from
-          the user unless permited. After the report you will be asked if you
+          Also, this assessment is anonymous and does not register any data from
+          the user unless permitted. After the report, you will be asked if you
           authorize to save the provided information for further anonymous
           statistics.
         </ToolDescription>

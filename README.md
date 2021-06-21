@@ -3,7 +3,8 @@
 
 ## Description
 
-This is a monorepo project containing a API and a Frontent pieace. This project build a tool for understand and measure personal carbon footprint by talink a shot assessment and processing it accordingly to emission factors of each category.
+This is a monorepo project containing an API and a Frontend piece. 
+This brief assessment is a tool to help people measure and understand their carbon footprint by applying a numerical approach to it. To do so, you will be asked a few simple day-to-day questions. After that our system will calculate your footprint and show it to you in a simple report/dashboard. The calculation is not the end goal, but rather the means to achieving a reduction in your footprint – first through the understanding of what is involved, then changes in your habits. Also, this assessment is anonymous and does not register any data from the user unless permitted. Before the report, you will be asked if you authorize to save the provided information for further anonymous statistics.
 
 A running copy of this app can be found [Here](https://api.irahe.com.br/my_footprint)
 

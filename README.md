@@ -54,6 +54,12 @@ Runs the app in the development mode.\
 Open [http://localhost:5000](http://localhost:5000) 
 
 
+## REST
+
+You can use [Insomnia](https://insomnia.rest/) to test your API locally. 
+The insomnia JSON is provived within the repo
+
+
 ## Learn More
 
 Te references used to build this tool can be found here:
